@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caso SIAP — Walter Henao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/page.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="../index.html">Walter Henao</a>
+        <nav class="nav-links open" style="display:flex">
+          <a href="../index.html#casos">Casos</a>
+          <a class="nav-cta" href="../index.html#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container page">
+      <div class="page-hero">
+        <p class="case-meta">Caso público · Full IA · sin información confidencial</p>
+        <h1>SIAP — Sistema Inteligente de Apoyo a Procesos</h1>
+        <p>IA conversacional, proactiva y con aprendizaje continuo sobre el flujo de información documentada.</p>
+      </div>
+      <div class="prose">
+        <div class="callout">Full IA aplicada a procesos: entiende, consulta datos reales, prioriza por rol, explica, compara y aprende.</div>
+        <h2>En palabras fáciles</h2>
+        <p>SIAP es un asistente inteligente del proceso: le preguntas en español y te dice pendientes, vencidos, estados o qué atender primero, según tu rol.</p>
+        <h2>Capas de IA</h2>
+        <ul>
+          <li>NLU: normalización, sinónimos e intents</li>
+          <li>Respuestas grounded en base de datos de trámites</li>
+          <li>Sugerencias proactivas por rol</li>
+          <li>Comparador documental inteligente</li>
+          <li>Aprendizaje continuo de consultas frecuentes</li>
+        </ul>
+        <h2>Lado técnico</h2>
+        <table>
+          <tr><th>App</th><td>Python + Flask</td></tr>
+          <tr><th>IA chat</th><td>siap_chat (intents, router, handlers, formatter)</td></tr>
+          <tr><th>Learning</th><td>unknown queries → confianza → reentrenar intents</td></tr>
+          <tr><th>Docs</th><td>extracción Word/PDF/Excel + diff</td></tr>
+          <tr><th>Datos</th><td>SQL de trámites/estados/alertas</td></tr>
+        </table>
+        <h2>Valor</h2>
+        <p>Menos tiempo buscando estados o prioridades; más apoyo inteligente al proceso real.</p>
+        <p><a class="btn btn-secondary" href="../index.html#casos">Volver al inicio</a></p>
+      </div>
+    </main>
+  </body>
+</html>

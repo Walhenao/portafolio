@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Caso BIT 2.0 — Walter Henao</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/page.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="../index.html">Walter Henao</a>
+        <nav class="nav-links open" style="display:flex">
+          <a href="../index.html#casos">Casos</a>
+          <a class="nav-cta" href="../index.html#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container page">
+      <div class="page-hero">
+        <p class="case-meta">Caso público · sin información confidencial</p>
+        <h1>BIT 2.0 — Biblioteca Integrada de Trabajo</h1>
+        <p>Plataforma SGI / Agente de Monitoreo: documentos controlados, automatización de procesos, indicadores, SAM, actas e IA.</p>
+      </div>
+      <div class="prose">
+        <div class="callout">Automatiza el ciclo del SGI para reducir tiempos: carga documental, monitoreo, actas y evidencia con IA.</div>
+        <h2>En palabras fáciles</h2>
+        <p>BIT ordena documentos oficiales, sigue indicadores/riesgos/acciones de mejora y ayuda a generar actas. También puede convertir audio de reuniones en texto útil.</p>
+        <h2>Automatizaciones que importan</h2>
+        <ul>
+          <li>Upload → validación → storage versionado → preview Office→PDF</li>
+          <li>Cambios masivos con lotes, tareas asíncronas y scheduler</li>
+          <li>Indicadores, riesgos y SAM por proceso</li>
+          <li>Generación de actas institucionales</li>
+          <li>MITRA: Faster-Whisper para transcripción y apoyo a actas</li>
+        </ul>
+        <h2>Lado técnico</h2>
+        <table>
+          <tr><th>Frontend</th><td>Next.js 14, TypeScript, Tailwind, React Query</td></tr>
+          <tr><th>Backend</th><td>Python 3.11, FastAPI, SQLAlchemy, Pydantic v2</td></tr>
+          <tr><th>Jobs</th><td>Tareas asíncronas + APScheduler</td></tr>
+          <tr><th>IA</th><td>Faster-Whisper (ctranslate2)</td></tr>
+          <tr><th>Auth</th><td>JWT, 2FA, SSO institucional</td></tr>
+        </table>
+        <h2>Valor</h2>
+        <p>Menos tiempo buscando documentos, actualizando plantillas o armando actas; más trazabilidad para decidir.</p>
+        <p><a class="btn btn-secondary" href="../index.html#casos">Volver al inicio</a></p>
+      </div>
+    </main>
+  </body>
+</html>

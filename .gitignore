@@ -1,0 +1,26 @@
+# Local / secrets — never publish
+.env
+.env.*
+*.pem
+*.key
+credentials*
+*CREDENTIAL*
+*.db
+*.sqlite
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Private local exports
+_private/
+temp/
+tmp/
+
+# CV local (no subir automáticamente)
+Hoja de Vida*.pdf
+*.pdf
+!casos/**/*.md
